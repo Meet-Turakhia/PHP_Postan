@@ -1,0 +1,155 @@
+body {
+  background-color: #000000!important;
+}
+
+* {
+  font-family: Century Gothic;
+}
+   
+#link {
+    color: white;
+}
+
+#link:hover {
+    color: #ffcc00;
+    border-bottom: 1px solid #ffcc00;
+}
+
+#socialicon {
+    color: white;
+}
+
+#socialicon:hover {
+    color: #ffcc00;
+    font-size: 30px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #ffcc00 !important;
+    background-color: black;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 600px;
+    box-shadow: 10px 10px 5px grey;
+    border: 1px solid black;
+    object-fit: cover;
+}
+
+#primarycolor {
+    color: #ffcc00
+}
+
+#h {
+    color: white;
+    transition: 0.2s;
+    border-bottom: 1.0px solid black;
+}
+
+#h:hover {
+    color: #ffcc00;
+    border-bottom: 1.0px solid #ffcc00;
+    transition: 0.2s;
+}
+
+/* card/arrow hover effect*/
+#ch {
+    color: black;
+    font-size:40px;
+    
+}
+
+#ch:hover {
+    color: #ffcc00;
+    font-size: 45px;
+    transition: 0.2s;
+}
+
+/* for courier cards*/
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    }
+    
+    /* On mouse-over, add a deeper shadow */
+    .card:hover {
+    box-shadow: 0 16px 32px 0 #ad8762;
+    }
+
+/* for profile card*/
+.pcard {
+    /* Add shadows to create the "card" effect */
+    border-bottom-right-radius: 170px;
+    border-top-left-radius: 50px;
+    box-shadow: 0 8px 16px 0 black;
+    transition: 0.2s;
+    }
+    
+    /* On mouse-over, add a deeper shadow */
+    .pcard:hover {
+    border-radius: 15px;
+    box-shadow: 0 16px 32px 0 black;
+    }
+
+
+#fh {
+    color: white;
+}
+
+#fh:hover {
+    color: #ffcc00;
+    font-size: 30px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #ffcc00 !important;
+    background-color: black;
+}
+
+
+
+/* Responsive address for cards */
+.ca {
+white-space: nowrap;
+display: inline-block; /* for em, a, span, etc (inline by default) */
+overflow: hidden;
+text-overflow: ellipsis;
+width: calc (80%); /* The trick is here! */  
+}
+
+.lead{
+text-align: justify;
+}
+
+.change {
+    color: #ffcc00;
+    border-bottom: solid black;
+}
+
+.radio {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #ffcc00;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.radio:hover {
+    background-color: #ffcc00;
+    color: black;
+    font-weight: 600;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.aa:hover {
+    border-bottom: solid #ffcc00;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}

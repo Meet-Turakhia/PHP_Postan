@@ -1,0 +1,102 @@
+* {box-sizing: border-box;}
+
+#cb {
+        color: #ffcc00;
+        font-size: 40px;
+    }
+
+    #cb:hover {
+        color: #ffd632;
+        font-size: 50px;
+        transition: 0.3s;
+    }
+/* The popup form - hidden by default */
+.form-popup-chatbot {
+  display: none;
+  overflow-x: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(255,204,0,0.5);
+  backdrop-filter: blur(6px);
+  transition: 0.3s;
+}
+/* Add styles to the form container */
+.form-container-chatbot {
+  box-shadow: 0px 10px 18px 0px rgba(0,0,0,1);
+  width: 300px;
+  margin: 25% 2% 2% auto;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;  
+  padding: 15px;
+  color: #ffcc00;
+  background-color: black;
+  border-radius:10px;
+}
+.botmsg{
+  margin:10px;
+  width: 250px;
+  text-align: left;
+  display: inline-block;
+  background-color: #ffcc00;
+  border-radius: 10px;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;  
+}
+#bot{
+  margin:5px;
+  text-align: justify;
+  word-wrap: break-word;
+  font-weight: bold;
+  overflow: auto;
+}
+input[type="checkbox"] {
+  visibility: hidden;
+}
+.animate {
+  -webkit-animation: animate 0.3s;
+  animation: animate 0.3s
+}
+
+@-webkit-keyframes animate {
+  from {-webkit-transform: translate(1em,0em)} 
+  to {-webkit-transform: translate(0em,0em)}
+}
+  
+@keyframes animate {
+  from {transform:  translate(3em,0em)} 
+  to {transform:  translate(0em,0em)}
+}
+
+.animate2 {
+  -webkit-animation: animate2 1s;
+  animation: animate2 1s
+}
+
+@-webkit-keyframes animate2 {
+  from {-webkit-transform: translate(1em,0em)} 
+  to {-webkit-transform: translate(0em,0em)}
+}
+  
+@keyframes animate2 {
+  from {transform:  translate(3em,0em)} 
+  to {transform:  translate(0em,0em)}
+}
+
+.animate3 {
+  -webkit-animation: animate3 2s;
+  animation: animate3 2s
+}
+
+@-webkit-keyframes animate3 {
+  from {-webkit-transform: translate(0em,1em)} 
+  to {-webkit-transform: translate(0em,0em)}
+}
+  
+@keyframes animate3 {
+  from {transform:  translate(0em,3em)} 
+  to {transform:  translate(0em,0em)}
+}
