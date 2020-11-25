@@ -151,7 +151,7 @@ if (isset($_POST["submit"])) {
         $row2 = $result2->fetch_assoc();
         ?>
 
-        <h1 style="margin-top: 100px;" class="ml-4"><kbd style="color: #ffcc00; background-color:black; font-family: Century Gothic; border-radius: 10px;">History Id</kbd> <?php echo $row["history_id"]; ?></h1>
+        <h1 style="margin-top: 30px;" class="ml-4"><kbd style="color: #ffcc00; background-color:black; font-family: Century Gothic; border-radius: 10px;">History Id</kbd> <?php echo $row["history_id"]; ?></h1>
 
         <div class="container" style="margin-top: 25px; margin-bottom: 50px;">
 

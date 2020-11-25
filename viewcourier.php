@@ -136,7 +136,7 @@ if (isset($_POST["delete"])) {
         }
         ?>
 
-        <h1 style="margin-top: 100px;" class="ml-4"><kbd style="color: #ffcc00; background-color:black; font-family: Century Gothic; border-radius: 10px;">Courier Id</kbd> <?php echo $row["courier_id"]; ?></h1>
+        <h1 style="margin-top: 30px;" class="ml-4"><kbd style="color: #ffcc00; background-color:black; font-family: Century Gothic; border-radius: 10px;">Courier Id</kbd> <?php echo $row["courier_id"]; ?></h1>
 
         <div class="container" style="margin-top: 25px; margin-bottom: 50px;">
 
