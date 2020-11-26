@@ -27,8 +27,8 @@ It uses basic to advanced SQL queries as well as amazing UI, great functionality
 - Complete data integrity for all types of users.
 
 ## How to run project:-
-- Import the database file in the XAMMP server.
-- Make sure the database name and username, password of XAMMP is correct inside PHP files.
+- Import the database file in the XAMPP server.
+- Make sure the database name and username, password of XAMPP is correct inside PHP files.
 - Now the project should run using XAMPP server and MYSQL.
 - For creating admin account you will require a passcode which by default is postanadmin(can be changed in js).
 
