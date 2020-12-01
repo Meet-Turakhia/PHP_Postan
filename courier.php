@@ -47,6 +47,18 @@ $u_id = $_SESSION["u_id"];
 $u_email = $_SESSION["u_email"];
 $u_type = $_SESSION["u_type"];
 
+if ($u_type == "Delivery Boy") {
+    echo
+        "<script type = 'text/javascript'>
+        setTimeout(function(){
+            $('#title').prop('disabled', true);
+            $('#description').prop('disabled', true);
+            $('#address').prop('disabled', true);
+            $('#image').prop('disabled', true);  
+        }, 100);
+        </script>";
+}
+
 if (isset($_GET["update_id"])) {
     $update_id = $_GET["update_id"];
 }
