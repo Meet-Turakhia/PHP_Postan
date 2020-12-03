@@ -34,7 +34,7 @@ It uses basic to advanced SQL queries as well as amazing UI, great functionality
 - Now the project should run using XAMPP server and MYSQL.
 - For creating admin account you will require a passcode which by default is postanadmin(can be changed in js).
 
-## Project authors(Team ...nCoders):-
+## Project authors(Team <...nCoders>):-
 Meet Turakhia:- https://github.com/Meet-Turakhia <br/>
 Parth Chudasama:- https://github.com/Parjunth
 
