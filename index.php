@@ -44,7 +44,7 @@ $u_type = $_SESSION["u_type"];
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/22d43b373b.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="public/js/ajax.js"></script>
     <link rel="icon" href="public/images/minilogo.png" type="image/x-icon">
     <link rel="stylesheet" href="public/css/index.css">

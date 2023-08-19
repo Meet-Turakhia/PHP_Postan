@@ -10,7 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/22d43b373b.js" crossorigin="anonymous"></script>
     <link rel="icon" href="public/images/minilogo.png" type="image/x-icon">
     <script type="text/javascript" src="public/js/courier.js"></script>
     <script type="text/javascript" src="public/js/ajax.js"></script>
@@ -49,7 +49,7 @@ $u_type = $_SESSION["u_type"];
 
 if ($u_type == "Delivery Boy") {
     echo
-        "<script type = 'text/javascript'>
+    "<script type = 'text/javascript'>
         setTimeout(function(){
             $('#title').prop('disabled', true);
             $('#description').prop('disabled', true);

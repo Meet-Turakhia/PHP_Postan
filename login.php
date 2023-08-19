@@ -134,7 +134,7 @@ if (isset($_POST['signin'])) {
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://kit.fontawesome.com/22d43b373b.js" crossorigin="anonymous"></script>
   <script type="text/javascript" src="public/js/login.js"></script>
   <link rel="stylesheet" href="public/css/login.css">
 </head>
